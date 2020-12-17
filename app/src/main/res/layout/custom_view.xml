@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:stretchColumns="0">
 
     <TableRow>
         <TextView
@@ -19,18 +20,14 @@
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:contentDescription="@string/fab_transformation_sheet_behavior"
-            android:src="@drawable/th" />
+            android:src="@drawable/thumbup"/>
     </TableRow>
 
     <TableRow
-        android:background="#FDD835"
-        android:padding="15dp">
-    </TableRow>
+        android:background="#F4511E"
+        android:layout_weight="1"/>
 
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+    <TableRow>
 
         <Button
             android:id="@+id/button3"

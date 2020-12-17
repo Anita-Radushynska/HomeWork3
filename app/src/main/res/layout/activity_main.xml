@@ -62,7 +62,7 @@
         >
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -70,18 +70,19 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="@android:string/cancel"/>
+            android:textSize="6dp"
+            android:text="Click me to show Toast"/>
 
         <ImageButton
-            android:id="@+id/imageButton"
-            android:contentDescription="@string/app_name"
+            android:id="@+id/ImgBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:contentDescription="@string/app_name"
             app:srcCompat="@android:drawable/btn_star_big_on" />
 
     </LinearLayout>
